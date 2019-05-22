@@ -1,0 +1,74 @@
+html {
+  font-size: 16px;
+  background-image: url("./resources/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, h3, p {
+  font-family: Helvetica;
+}
+
+header .title {
+  font-size: 6.25rem;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("./resources/pattern.jpeg");
+}
+
+body #brush {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
+}
+
+body #frame {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+}
+
+body #paint {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: skyblue;
+}
+
+h3, p {
+  text-align: center;
+}
+
+.copyright {
+  padding-top: 2rem;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dogs {
+  padding-top: 4rem;
+  padding-left: 64px;
+  margin-right: auto;
+  display: block;
+  transform: rotate(90deg);
+  width: 10%;
+  height: auto;
+}
+
+.price {
+  color: blue;
+  font-weight: bold;
+}
